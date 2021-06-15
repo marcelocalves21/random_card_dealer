@@ -1,4 +1,48 @@
-.rotate{
-    transform : 
-    translateX(180px);
+body{
+    background-color: green;
+}
+.btnDiv{
+    margin-bottom: 25px;
+}
+
+.btn{
+    font-size: 12pt;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+}
+
+.carta {
+    background-color: white;
+    width: 305px;
+    height: 455px;
+    margin-left: 15px;
+    border-radius: 25px;
+}
+
+.img, .img2{
+    width: 50px;
+    position: absolute;
+}
+
+#top_img{
+    margin: 15px;
+}
+
+#bot_img{
+    margin-left: 240px;
+    margin-top: 20px;
+    
+}
+
+.cardValue{
+    position: relative;
+}
+
+.number{
+    font-size: 200px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 35px;
+    padding-top: 100px;
 }
