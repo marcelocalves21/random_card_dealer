@@ -32,7 +32,7 @@ body{
 #bot_img{
     margin-left: 240px;
     margin-top: 20px;
-    
+    transform: rotate(180deg);
 }
 
 .cardValue{

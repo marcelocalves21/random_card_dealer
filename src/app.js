@@ -11,19 +11,19 @@ const changeImage = () =>{
   let randomSymbol = Math.floor(Math.random() * 4)
   let cardSymbol = allCardSymbol[randomSymbol]
   switch (cardSymbol){
-    case 0 :
+    case 1 :
       document.querySelector('.img').src='./assets/img/heart 200x200.png'
       document.querySelector('.img2').src='./assets/img/heart 200x200.png'
       break
-    case 1 :
+    case 2 :
       document.querySelector('.img').src='./assets/img/diamond 200x200.png'
       document.querySelector('.img2').src='./assets/img/diamond 200x200.png'
       break
-    case 2 :
+    case 3 :
       document.querySelector('.img').src='./assets/img/spades 200x200.png'
       document.querySelector('.img2').src='./assets/img/spades 200x200.png'
       break
-    case 3 :
+    case 4 :
       document.querySelector('.img').src='./assets/img/clubs 200x200.png'
       document.querySelector('.img2').src='./assets/img/clubs 200x200.png'
       break
