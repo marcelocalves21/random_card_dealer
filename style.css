@@ -1,0 +1,51 @@
+body{
+    background-color: green;
+}
+.btnDiv{
+    margin-left: 55px;
+    margin-bottom: 25px;
+}
+
+.btn{
+    font-size: 12pt;
+    padding: 10px;
+    background-color: rgba(27, 27, 253, 0.836);
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.carta {
+    background-color: white;
+    width: 305px;
+    height: 455px;
+    margin-left: 15px;
+    border-radius: 25px;
+}
+
+.img, .img2{
+    width: 50px;
+    position: absolute;
+}
+
+#top_img{
+    margin: 15px;
+}
+
+#bot_img{
+    margin-left: 240px;
+    margin-top: 20px;
+    transform: rotate(180deg);
+}
+
+.cardValue{
+    position: relative;
+}
+
+.number{
+    font-size: 200px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 35px;
+    padding-top: 100px;
+}
